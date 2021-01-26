@@ -1,0 +1,39 @@
+{
+  "name": "m2-react",
+  "version": "1.1.6",
+  "description": "The package is provided facilities and utilities based on react.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miracle-git/m2.git"
+  },
+  "main": "index.js",
+  "keywords": [
+    "npm",
+    "package",
+    "utilities",
+    "factory",
+    "frontend",
+    "framework",
+    "react",
+    "m2-react"
+  ],
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir dist",
+    "prepublishOnly": "NODE_ENV='publish' yarn build"
+  },
+  "dependencies": {
+    "history": "^4.9.0",
+    "m2-core": "^1.1.8",
+    "react": "16.8.0",
+    "react-dom": "16.8.0",
+    "react-router-dom": "4.3.0",
+    "string-format": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.4.4"
+  }
+}

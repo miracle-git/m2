@@ -1,0 +1,6 @@
+{
+  "env": {
+    "commonjs": true,
+    "amd": true
+  }
+}
