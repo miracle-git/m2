@@ -1,0 +1,10 @@
+{
+  "init": {
+    "name": "init",
+    "path": {
+      "web": "miracle-git/m2-vue-web",
+      "mob": "miracle-git/m2-vue-mob",
+      "mfe": "miracle-git/m2-vue-mfe"
+    }
+  }
+}

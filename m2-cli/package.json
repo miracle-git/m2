@@ -1,0 +1,30 @@
+{
+  "name": "m2-cli",
+  "version": "1.2.0",
+  "description": "Create a vue2 app rapidly based on M2.",
+  "bin": {
+    "m2": "bin/m2-cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miracle-git/m2.git"
+  },
+  "keywords": [
+    "vue",
+    "@vue/cli",
+    "m2-vue",
+    "m2-cli",
+    "m2-vue-web",
+    "m2-vue-mob"
+  ],
+  "author": "Miracle He",
+  "preferGlobal": true,
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^6.4.1",
+    "ora": "^3.4.0"
+  }
+}
