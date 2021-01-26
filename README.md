@@ -1,2 +1,2 @@
 # m2
-企业级前端开发框架全家桶
+enterprise-level frontend framework, including m2-core, m2-react, m2-vue, m2-mfe, m2-cli etc.
