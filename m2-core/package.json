@@ -1,0 +1,35 @@
+{
+  "name": "m2-core",
+  "version": "1.5.0",
+  "description": "The package is provided utilities and facilities for business frontend framework.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miracle-git/m2.git"
+  },
+  "main": "index.js",
+  "keywords": [
+    "npm",
+    "frontend",
+    "framework",
+    "m2",
+    "m2-core"
+  ],
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir dist",
+    "prepublishOnly": "cross-env NODE_ENV='publish' & npm run build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "crypto-js": "^3.1.9-1",
+    "events": "^3.0.0",
+    "qs": "^6.9.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.4.4",
+    "cross-env": "^7.0.2"
+  }
+}
