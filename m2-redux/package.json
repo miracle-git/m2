@@ -1,0 +1,43 @@
+{
+  "name": "m2-redux",
+  "version": "1.1.8",
+  "description": "The package is provided factory and utilities based on redux.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miracle-git/m2.git"
+  },
+  "main": "index.js",
+  "keywords": [
+    "npm",
+    "package",
+    "utilities",
+    "factory",
+    "frontend",
+    "framework",
+    "redux",
+    "m2-redux"
+  ],
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir dist",
+    "prepublishOnly": "NODE_ENV='publish' yarn build"
+  },
+  "dependencies": {
+    "m2-core": "^1.1.8",
+    "m2-react": "^1.1.6",
+    "prop-types": "^15.7.2",
+    "react": "16.8.0",
+    "react-redux": "5.0.6",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "redux": "3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.4.4"
+  }
+}
