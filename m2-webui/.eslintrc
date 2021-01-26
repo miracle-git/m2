@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "plugin:vue/essential",
+    "@vue/standard"
+  ],
+  "rules": {
+    "camelcase": "off",
+    "indent": "off",
+    "valid-typeof": "off",
+    "no-async-promise-executor": "off",
+    "no-misleading-character-class": "off",
+    "no-sequences": "off",
+    "no-return-assign": "off",
+    "no-trailing-spaces": "off",
+    "no-useless-catch": "off",
+    "no-unused-expressions": "off",
+    "operator-linebreak": "off",
+    "quote-props": "off",
+    "quotes": "off",
+    "space-before-function-paren": "off",
+    "prefer-promise-reject-errors": "off"
+  },
+  "parserOptions": {
+    "parser": "babel-eslint"
+  }
+}

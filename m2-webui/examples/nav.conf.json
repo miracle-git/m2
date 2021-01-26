@@ -1,0 +1,120 @@
+{
+  "zh-CN": [
+    {
+      "name": "更新日志",
+      "path": "/changelog"
+    },
+    {
+      "name": "开发指南",
+      "children": [
+        {
+          "path": "/install",
+          "name": "安装"
+        },
+        {
+          "path": "/quickstart",
+          "name": "快速上手"
+        },
+        {
+          "path": "/i18n",
+          "name": "国际化"
+        }
+      ]
+    },
+    {
+      "path": "/theme-preview",
+      "name": "视觉主题"
+    },
+    {
+      "name": "通用组件",
+      "children": [
+        {
+          "path": "/layout",
+          "name": "Layout 页面布局"
+        },
+        {
+          "path": "/container",
+          "name": "Container 容器"
+        },
+        {
+          "path": "/link",
+          "name": "Link 链接"
+        },
+        {
+          "path": "/loading",
+          "name": "Loading 数据加载器"
+        },
+        {
+          "path": "/toast",
+          "name": "Toast 消息提示"
+        },
+        {
+          "path": "/tooltip",
+          "name": "Tooltip 提示文字"
+        },
+        {
+          "path": "/table",
+          "name": "Table 表格"
+        },
+        {
+          "path": "/svg-icon",
+          "name": "SvgIcon 图标"
+        },
+        {
+          "path": "/modal",
+          "name": "Modal 弹窗"
+        },
+        {
+          "path": "/alert",
+          "name": "Alert 消息弹窗"
+        },
+        {
+          "path": "/prompt",
+          "name": "Prompt 确认弹窗"
+        },
+        {
+          "path": "/router-view",
+          "name": "RouterView 路由视图"
+        }
+      ]
+    },
+    {
+      "name": "业务组件",
+      "children": [
+        {
+          "path": "/query-panel",
+          "name": "QueryPanel 查询条件面板"
+        },
+        {
+          "path": "/query-result",
+          "name": "QueryResult 查询结果容器"
+        },
+        {
+          "path": "/exception",
+          "name": "Exception 异常页面"
+        }
+      ]
+    },
+    {
+      "name": "相关文档",
+      "children": [
+        {
+          "path": "/m2-core",
+          "name": "m2-core"
+        },
+        {
+          "path": "/m2-vue",
+          "name": "m2-vue"
+        },
+        {
+          "path": "/m2-mfe",
+          "name": "m2-mfe"
+        },
+        {
+          "path": "/m2-webui",
+          "name": "m2-webui"
+        }
+      ]
+    }
+  ]
+}

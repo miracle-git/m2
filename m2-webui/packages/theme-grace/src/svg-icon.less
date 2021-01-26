@@ -1,0 +1,37 @@
+@import "./vars.less";
+
+.m2-svg-icon {
+  color: @color-text-light;
+  &:hover, &.hover {
+    color: @color-theme;
+    use.stroke {
+      stroke: @color-theme;
+    }
+  }
+  use.stroke {
+    stroke: @color-text-light;
+  }
+  svg {
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    vertical-align: -.15em;
+    fill: currentColor;
+    &.svg-sm {
+      width: 16px;
+      height: 16px;
+    }
+    &.svg-md {
+      width: 24px;
+      height: 24px;
+    }
+    &.svg-lg {
+      width: 32px;
+      height: 32px;
+    }
+    &.svg-xl {
+      width: 48px;
+      height: 48px;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "container": "./packages/container",
+  "layout": "./packages/layout",
+  "loading": "./packages/loading",
+  "toast": "./packages/toast",
+  "table": "./packages/table",
+  "tooltip": "./packages/tooltip",
+  "link": "./packages/link",
+  "exception": "./packages/exception",
+  "svg-icon": "./packages/svg-icon",
+  "modal": "./packages/modal",
+  "alert": "./packages/alert",
+  "prompt": "./packages/prompt",
+  "router-view": "./packages/router-view",
+  "query-panel": "./packages/query-panel",
+  "query-result": "./packages/query-result"
+}

@@ -1,0 +1,56 @@
+.page-component .content > ul.icon-list {
+    overflow: hidden;
+    list-style: none;
+    padding: 0!important;
+    border: solid 1px #eaeefb;
+    border-radius: 4px;
+  }
+  .icon-list li {
+    float: left;
+    width: 16.667%;
+    text-align: center;
+    height: 120px;
+    line-height: 120px;
+    color: #666;
+    font-size: 13px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    box-sizing: content-box;
+
+    &::after {
+      display: inline-block;
+      content: "";
+      height: 100%;
+      vertical-align: middle;
+    }
+
+    span {
+      display: inline-block;
+      line-height: normal;
+      vertical-align: middle;
+      transition: color 0.15s linear;
+    }
+    .icon-name {
+      display: inline-block;
+      padding: 0 3px;
+      height: 1em;
+    }
+
+    &:hover {
+      span,
+      i {
+        color: #3464e0;
+      }
+    }
+  }
+.demo-svg-icon{
+  .custom-red{
+    color:#f81d22;
+  }
+  .custom-green{
+    color: #70b758;
+  }
+} 
+  

@@ -1,0 +1,59 @@
+@import "./vars.less";
+@import "./mixins.less";
+@import "./sidebar.less";
+@import "./router-view.less";
+
+.m2-content {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-basis: auto;
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 0;
+  height: calc(100vh - @top-nav-height);
+  .page-nav {
+    position: relative;
+    padding-top: 10px;
+    width: @left-nav-width;
+    background-color: @color-text-white;
+    transition: all .5s linear;
+    box-shadow: 0 0 7px 0 rgba(171, 171, 171, 0.2);
+    overflow: hidden;
+    &.nav-collapse {
+      width: @left-nav-collapse-width;
+    }
+  }
+  .page-content {
+    flex: 1;
+    overflow-y: auto;
+    background-color: @color-bg-content;
+    .el-breadcrumb {
+      position: relative;
+      height: @list-item-height;
+      line-height: @list-item-height;
+      padding: 0 @item-padding-left;
+      background: @color-bg-white;
+      border-bottom: 1px solid @color-bg-light;
+    }
+    .m2-router-view {
+      height: 100%;
+      width: 100%;
+      overflow: auto;
+      padding: 10px;
+    }
+  }
+  .m2-back-top {
+    i {
+      outline: none;
+    }
+    bottom: 20px !important;
+    .font-color(@color-theme);
+  }
+}
+.m2-backtop-popper {
+  border: 1px solid @color-bd !important;
+  .popper__arrow {
+    border-top-color: @color-bd !important;
+  }
+}

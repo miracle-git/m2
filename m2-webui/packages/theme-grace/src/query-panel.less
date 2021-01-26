@@ -1,0 +1,99 @@
+@import "./vars.less";
+
+.m2-query-panel {
+  &.el-card {
+    border: none;
+    border-left: 1px solid @color-bd-light;
+    margin-bottom: 10px;
+    .el-card__body {
+      padding: 15px 15px 0;
+    }
+    .el-row.action {
+      padding-bottom: 15px;
+      text-align: right;
+      &.expand {
+        padding-top: 15px;
+        border-top: 1px dashed @color-bd;
+      }
+    }
+    .el-form.el-form--inline {
+      display: flex;
+      justify-content: space-between;
+      .content {
+        display: inline-block;
+        .el-input__inner {
+          width: 330px;
+        }
+        .fl-date-range {
+          width: 330px;
+          .el-input__inner {
+            width: 150px;
+          }
+        }
+      }
+    }
+    .el-form.el-form--block {
+      .el-select,
+      .el-date-editor.el-input__inner {
+        width: 100%;
+      }
+    }
+    .m2-selector {
+      margin-top: 2px;
+      .selector-container--normal,
+      .selector-container--medium {
+        .el-autocomplete .el-input__inner {
+          height: 32px;
+          line-height: 32px;
+        }
+      }
+      .selector-container--small {
+        .el-autocomplete .el-input__inner {
+          height: 28px;
+          line-height: 28px;
+        }
+      }
+    }
+    .el-form-item {
+      .el-form-item__label,
+      .el-input__inner,
+      .el-range-input {
+        font-size: @font-13;
+      }
+      .el-input__inner {
+        height: 34px;
+        line-height: 34px;
+        padding-left: 10px;
+      }
+      .el-input__icon.el-icon-date,
+      .el-date-editor .el-range-separator {
+        font-size: @font-13;
+        line-height: 27px;
+      }
+      .el-date-editor .el-range-separator {
+        width: auto;
+      }
+    }
+    .action button {
+      min-width: 80px;
+      padding: 10px 15px;
+      font-size: 12px;
+      border-radius: 3px;
+    }
+    .expand-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 34px;
+      height: 34px;
+      text-align: left;
+      border-radius: 50%;
+      cursor: pointer;
+      background: #dcdfe6;
+      &:hover {
+        background: @color-primary;
+        color: #fff;
+      }
+    }
+  }
+}

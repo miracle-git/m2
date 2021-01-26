@@ -1,0 +1,35 @@
+@import './vars.less';
+@import './link.less';
+
+.m2-exception {
+  width: 100%;
+  margin-top: 20%;
+  text-align: center;
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content {
+      padding: 0 20px;
+      line-height: 3.6;
+      font-size: 14px;
+      text-align: left;
+      .title {
+        color: #333;
+        font-weight: 700;
+        font-size: 18px;
+      }
+      .links {
+        a {
+          color: @color-theme;
+        }
+        .or {
+          margin: 0 10px;
+        }
+      }
+      .info {
+        color: #666;
+      }
+    }
+  }
+}
