@@ -1,0 +1,10 @@
+*.sh
+node_modules
+packages/theme-grace/img
+packages/theme-grace/icon
+lib
+docs
+*.md
+*.less
+*.woff
+*.ttf

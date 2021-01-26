@@ -1,0 +1,8 @@
+{
+  "container": "./packages/container",
+  "loading": "./packages/loading",
+  "toast": "./packages/toast",
+  "link": "./packages/link",
+  "svg-icon": "./packages/svg-icon",
+  "router-view": "./packages/router-view"
+}

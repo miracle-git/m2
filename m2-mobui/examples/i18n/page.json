@@ -1,0 +1,24 @@
+[
+  {
+    "lang": "zh-CN",
+    "views": {
+      "component": {},
+      "changelog": {
+        "1": "更新日志",
+        "2": "zh-CN"
+      },
+      "theme-preview": {}
+    }
+  },
+  {
+    "lang": "en-US",
+    "views": {
+      "component": {},
+      "changelog": {
+        "1": "Changelog",
+        "2": "en-US"
+      }
+    },
+    "theme-preview": {}
+  }
+]
