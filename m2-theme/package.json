@@ -1,0 +1,33 @@
+{
+  "name": "m2-theme",
+  "version": "1.0.0",
+  "description": "Element component chalk theme for M2.",
+  "main": "lib/index.css",
+  "style": "lib/index.css",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miracle-git/m2.git"
+  },
+  "keywords": [
+    "element",
+    "theme",
+    "m2-webui",
+    "m2-theme"
+  ],
+  "scripts": {
+    "build": "gulp build",
+    "prepublishOnly": "cross-env NODE_ENV='publish' & npm run build"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "gulp": "^4.0.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-sass": "^3.1.0",
+    "gulp-autoprefixer": "^4.0.0"
+  }
+}
