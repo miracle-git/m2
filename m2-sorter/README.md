@@ -1,6 +1,6 @@
 ## m2-sorter
 
-[![](https://img.shields.io/badge/m2--sorter-v1.0.0-green.svg)](https://github.com/miracle-git/m2.git) <br/>
+[![](https://img.shields.io/badge/m2--sorter-v1.0.1-green.svg)](https://github.com/miracle-git/m2.git) <br/>
 > M2前端排序算法(冒泡排序、选择排序、插入排序、希尔排序、快速排序、归并排序、堆排序、桶排序、计数排序、基数排序)。
 
 ### 用法

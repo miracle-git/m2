@@ -1,1 +1,2 @@
-export * from './dist'
+import Sorter from './dist'
+export default Sorter
