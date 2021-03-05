@@ -1,0 +1,37 @@
+{
+  "name": "m2-sorter",
+  "version": "1.0.0",
+  "description": "The package is provided all sorter algorithms for array.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miracle-git/m2.git"
+  },
+  "main": "index.js",
+  "keywords": [
+    "npm",
+    "sorter",
+    "algorithm",
+    "m2",
+    "m2-sorter"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "./node_modules/.bin/babel src --out-dir dist",
+    "prepublishOnly": "cross-env NODE_ENV='publish' & npm run build"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.4.4",
+    "babel-jest": "^26.3.0",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "cross-env": "^7.0.2",
+    "jest": "^26.4.2",
+    "jest-html-reporter": "^3.2.0",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
